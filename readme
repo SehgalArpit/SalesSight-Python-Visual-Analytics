@@ -1,0 +1,55 @@
+# Sales Data Visualization for Pharmaceutical Company
+
+## Project Overview
+
+This project is focused on visualizing and analyzing sales data of a pharmaceutical company for the years 2015 and 2016. Using Python and various libraries such as Pandas, Matplotlib, and Seaborn, the objective is to create a dynamic dashboard with key performance indicators (KPIs) and visualizations that help explore sales trends, identify contributing factors, and provide insights for decision-making.
+
+The goal of this project is to make sales data easier to understand through visual representations, which can aid decision-makers in identifying patterns, trends, and areas that need improvement.
+
+## Objectives
+
+- **Compare Sales by Region for 2016 vs 2015**: Using bar charts to compare sales across different regions.
+- **Contributing Factors to Sales for Each Region in 2016**: Displaying the distribution of sales across regions with pie charts.
+- **Comparison of Total Sales (2015 vs 2016)**: Breaking down sales by region and tier.
+- **Identify Decline in Sales in the East Region**: Finding which state in the East region experienced a decline in sales.
+- **Decline in Units Sold in High Tier Divisions**: Identifying divisions with reduced unit sales in 2016.
+- **Quarterly Sales Visualization**: Creating bar plots and pie charts to analyze sales by quarter.
+- **Dynamic Dashboard**: Offering a comprehensive analysis of the sales data across regions, tiers, and time frames.
+
+## Data Description
+
+The dataset consists of sales data from 2015 and 2016 for a pharmaceutical company. The key columns in the dataset include:
+
+- **AccountId**: Customer ID
+- **AccountName**: Customer Name
+- **Region**: Geographical region of the customer
+- **Division**: The division to which the customer belongs
+- **City**: City of the customer
+- **State**: State of the customer
+- **Tier**: Customer segment (Low, High, etc.)
+- **Month**: Month of the sales data
+- **Sales2015**: Sales amount in the year 2015
+- **Sales2016**: Sales amount in the year 2016
+- **Units2015**: Units sold in 2015
+- **Units2016**: Units sold in 2016
+- **TargetAchevied2015**: Target achievement for the year 2015
+- **TargetAchevied2016**: Target achievement for the year 2016
+
+## Project Structure
+
+```plaintext
+sales_data_visualization/
+│
+├── data/
+│   ├── sales_data.csv            # The sales data file (2015 and 2016)
+│
+├── notebooks/
+│   ├── sales_data_analysis.ipynb # Jupyter notebook for analysis and visualizations
+│
+├── src/
+│   ├── data_cleaning.py          # Python script for data cleaning and preprocessing
+│   ├── visualizations.py         # Python script for creating visualizations
+│
+├── requirements.txt             # Required libraries for the project
+├── README.md                    # This README file
+└── .gitignore                   # Git ignore file
