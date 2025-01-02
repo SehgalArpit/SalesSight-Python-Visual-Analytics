@@ -5,24 +5,16 @@ This project focuses on visualizing and analyzing sales data from a pharmaceutic
 
 Project Objectives
 The following objectives were pursued in this project:
-
-Compare Sales by Region for 2016 vs 2015: The sales data for each region was compared for the years 2015 and 2016 to identify any significant trends or patterns.
-
-Identify Contributing Factors to Sales for Each Region in 2016: A pie chart was created to show how sales were distributed across various regions in 2016, highlighting the contribution of each region to total sales.
-
-Sales Comparison by Region and Tier: The total sales in 2015 and 2016 were compared, breaking down the data by region and customer tier to understand the sales dynamics.
-
-Analyze Sales Decline in the East Region: Focused on the East region to identify which states experienced a decline in sales in 2016 as compared to 2015.
-
-Units Sold in High Tier Divisions: Identified divisions within the "High" customer tier that saw a decrease in the number of units sold in 2016 compared to 2015.
-
-Quarterly Sales Trends: A bar plot was created to compare sales data by quarter for 2015 and 2016.
-
-Sales Composition by Quarter and Tier: Pie charts were created to represent the sales composition for each quarter, segmented by customer tier.
+1.Compare Sales by Region for 2016 vs 2015: The sales data for each region was compared for the years 2015 and 2016 to identify any significant trends or patterns.
+2.Identify Contributing Factors to Sales for Each Region in 2016: A pie chart was created to show how sales were distributed across various regions in 2016, highlighting the contribution of each region to total sales.
+3.Sales Comparison by Region and Tier: The total sales in 2015 and 2016 were compared, breaking down the data by region and customer tier to understand the sales dynamics.
+4.Analyze Sales Decline in the East Region: Focused on the East region to identify which states experienced a decline in sales in 2016 as compared to 2015.
+5.Units Sold in High Tier Divisions: Identified divisions within the "High" customer tier that saw a decrease in the number of units sold in 2016 compared to 2015.
+6.Quarterly Sales Trends: A bar plot was created to compare sales data by quarter for 2015 and 2016.
+7.Sales Composition by Quarter and Tier: Pie charts were created to represent the sales composition for each quarter, segmented by customer tier.
 
 Data Description
 The dataset used for this project contains sales data for a pharmaceutical company in 2015 and 2016. The data includes the following columns:
-
 AccountId: Customer ID
 AccountName: Customer Name
 Region: Geographic region of the customer
@@ -38,35 +30,34 @@ Units2016: Units sold in 2016
 TargetAchevied2015: Target achievement for the year 2015
 TargetAchevied2016: Target achievement for the year 2016
 Project Structure
-The project is organized as follows:
 
+The project is organized as follows:
 Data: Contains the raw sales data for 2015 and 2016.
 Notebooks: Jupyter notebooks for analysis and visualizations.
 Scripts: Python scripts for data cleaning and visualizations.
+
 Requirements: A list of Python libraries required to run the project.
+
 How to Run the Project
 To run the project, follow these steps:
-
 Clone the Repository: Clone the repository to your local machine from GitHub.
 Install Dependencies: Install the required Python libraries listed in the requirements.txt file.
 Run the Jupyter Notebook: Open the Jupyter notebook sales_data_analysis.ipynb, which contains the steps to analyze the sales data and generate the visualizations.
 Run Python Scripts (Optional): You can also run the Python scripts directly for data cleaning and visualization.
+
 Key Insights and Visualizations
 The analysis and visualizations generated in this project include:
+1.Sales Comparison by Region: Bar charts comparing the sales data across different regions for 2015 and 2016.
+2.Sales Contribution by Region (2016): Pie charts showing the percentage contribution of each region to the total sales for 2016.
+3.Sales by Region and Tier: Stacked bar charts comparing sales in different regions and tiers for both years.
+4.Quarterly Sales Trends: Bar plots comparing sales for each quarter in 2015 and 2016.
+5.Sales Composition by Tier: Pie charts showing the distribution of sales by tier for each quarter.
 
-Sales Comparison by Region: Bar charts comparing the sales data across different regions for 2015 and 2016.
-Sales Contribution by Region (2016): Pie charts showing the percentage contribution of each region to the total sales for 2016.
-Sales by Region and Tier: Stacked bar charts comparing sales in different regions and tiers for both years.
-Quarterly Sales Trends: Bar plots comparing sales for each quarter in 2015 and 2016.
-Sales Composition by Tier: Pie charts showing the distribution of sales by tier for each quarter.
 Future Work
 This project can be expanded by:
-
-Building an Interactive Dashboard: Developing a more dynamic and interactive dashboard using tools like Dash or Streamlit for real-time exploration of sales data.
-
-Sales Forecasting: Implementing predictive models to forecast sales trends based on historical data.
-
-Customer Behavior Analysis: Analyzing customer behavior in greater depth, possibly by integrating more data such as demographics or product categories.
+1.Building an Interactive Dashboard: Developing a more dynamic and interactive dashboard using tools like Dash or Streamlit for real-time exploration of sales data.
+2.Sales Forecasting: Implementing predictive models to forecast sales trends based on historical data.
+3.Customer Behavior Analysis: Analyzing customer behavior in greater depth, possibly by integrating more data such as demographics or product categories.
 
 Acknowledgements
 Pandas Documentation: https://pandas.pydata.org/pandas-docs/stable/
