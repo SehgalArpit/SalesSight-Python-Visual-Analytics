@@ -1,56 +1,74 @@
-# Sales Data Visualization
+Sales Data Visualization
 
-## Project Overview
+Project Overview
+This project focuses on visualizing and analyzing sales data from a pharmaceutical company for the years 2015 and 2016. The goal is to provide clear, insightful visualizations and dashboards that enable better decision-making by identifying trends and key performance indicators (KPIs) in the sales data across various regions and customer segments. Python, along with libraries such as Pandas, Matplotlib, and Seaborn, is used to create the visualizations and analyses.
 
-This project is focused on visualizing and analyzing sales data of a pharmaceutical company for the years 2015 and 2016. Using Python and various libraries such as Pandas, Matplotlib, and Seaborn, the objective is to create a dynamic dashboard with key performance indicators (KPIs) and visualizations that help explore sales trends, identify contributing factors, and provide insights for decision-making.
+Project Objectives
+The following objectives were pursued in this project:
 
-The goal of this project is to make sales data easier to understand through visual representations, which can aid decision-makers in identifying patterns, trends, and areas that need improvement.
+Compare Sales by Region for 2016 vs 2015: The sales data for each region was compared for the years 2015 and 2016 to identify any significant trends or patterns.
 
-## Objectives
+Identify Contributing Factors to Sales for Each Region in 2016: A pie chart was created to show how sales were distributed across various regions in 2016, highlighting the contribution of each region to total sales.
 
-- **Compare Sales by Region for 2016 vs 2015**: Using bar charts to compare sales across different regions.
-- **Contributing Factors to Sales for Each Region in 2016**: Displaying the distribution of sales across regions with pie charts.
-- **Comparison of Total Sales (2015 vs 2016)**: Breaking down sales by region and tier.
-- **Identify Decline in Sales in the East Region**: Finding which state in the East region experienced a decline in sales.
-- **Decline in Units Sold in High Tier Divisions**: Identifying divisions with reduced unit sales in 2016.
-- **Quarterly Sales Visualization**: Creating bar plots and pie charts to analyze sales by quarter.
-- **Dynamic Dashboard**: Offering a comprehensive analysis of the sales data across regions, tiers, and time frames.
+Sales Comparison by Region and Tier: The total sales in 2015 and 2016 were compared, breaking down the data by region and customer tier to understand the sales dynamics.
 
-## Data Description
+Analyze Sales Decline in the East Region: Focused on the East region to identify which states experienced a decline in sales in 2016 as compared to 2015.
 
-The dataset consists of sales data from 2015 and 2016 for a pharmaceutical company. The key columns in the dataset include:
+Units Sold in High Tier Divisions: Identified divisions within the "High" customer tier that saw a decrease in the number of units sold in 2016 compared to 2015.
 
-- **AccountId**: Customer ID
-- **AccountName**: Customer Name
-- **Region**: Geographical region of the customer
-- **Division**: The division to which the customer belongs
-- **City**: City of the customer
-- **State**: State of the customer
-- **Tier**: Customer segment (Low, High, etc.)
-- **Month**: Month of the sales data
-- **Sales2015**: Sales amount in the year 2015
-- **Sales2016**: Sales amount in the year 2016
-- **Units2015**: Units sold in 2015
-- **Units2016**: Units sold in 2016
-- **TargetAchevied2015**: Target achievement for the year 2015
-- **TargetAchevied2016**: Target achievement for the year 2016
+Quarterly Sales Trends: A bar plot was created to compare sales data by quarter for 2015 and 2016.
 
-## Project Structure
+Sales Composition by Quarter and Tier: Pie charts were created to represent the sales composition for each quarter, segmented by customer tier.
 
-```plaintext
-sales_data_visualization/
-│
-├── data/
-│   ├── sales_data.csv            # The sales data file (2015 and 2016)
-│
-├── notebooks/
-│   ├── sales_data_analysis.ipynb # Jupyter notebook for analysis and visualizations
-│
-├── src/
-│   ├── data_cleaning.py          # Python script for data cleaning and preprocessing
-│   ├── visualizations.py         # Python script for creating visualizations
-│
-├── requirements.txt             # Required libraries for the project
-├── README.md                    # This README file
-└── .gitignore                   # Git ignore file
+Data Description
+The dataset used for this project contains sales data for a pharmaceutical company in 2015 and 2016. The data includes the following columns:
 
+AccountId: Customer ID
+AccountName: Customer Name
+Region: Geographic region of the customer
+Division: Customer division
+City: City of the customer
+State: State of the customer
+Tier: Customer segment (e.g., Low, High)
+Month: Month of the sales data
+Sales2015: Sales amount for 2015
+Sales2016: Sales amount for 2016
+Units2015: Units sold in 2015
+Units2016: Units sold in 2016
+TargetAchevied2015: Target achievement for the year 2015
+TargetAchevied2016: Target achievement for the year 2016
+Project Structure
+The project is organized as follows:
+
+Data: Contains the raw sales data for 2015 and 2016.
+Notebooks: Jupyter notebooks for analysis and visualizations.
+Scripts: Python scripts for data cleaning and visualizations.
+Requirements: A list of Python libraries required to run the project.
+How to Run the Project
+To run the project, follow these steps:
+
+Clone the Repository: Clone the repository to your local machine from GitHub.
+Install Dependencies: Install the required Python libraries listed in the requirements.txt file.
+Run the Jupyter Notebook: Open the Jupyter notebook sales_data_analysis.ipynb, which contains the steps to analyze the sales data and generate the visualizations.
+Run Python Scripts (Optional): You can also run the Python scripts directly for data cleaning and visualization.
+Key Insights and Visualizations
+The analysis and visualizations generated in this project include:
+
+Sales Comparison by Region: Bar charts comparing the sales data across different regions for 2015 and 2016.
+Sales Contribution by Region (2016): Pie charts showing the percentage contribution of each region to the total sales for 2016.
+Sales by Region and Tier: Stacked bar charts comparing sales in different regions and tiers for both years.
+Quarterly Sales Trends: Bar plots comparing sales for each quarter in 2015 and 2016.
+Sales Composition by Tier: Pie charts showing the distribution of sales by tier for each quarter.
+Future Work
+This project can be expanded by:
+
+Building an Interactive Dashboard: Developing a more dynamic and interactive dashboard using tools like Dash or Streamlit for real-time exploration of sales data.
+
+Sales Forecasting: Implementing predictive models to forecast sales trends based on historical data.
+
+Customer Behavior Analysis: Analyzing customer behavior in greater depth, possibly by integrating more data such as demographics or product categories.
+
+Acknowledgements
+Pandas Documentation: https://pandas.pydata.org/pandas-docs/stable/
+Matplotlib Documentation: https://matplotlib.org/
+Seaborn Documentation: https://seaborn.pydata.org/
